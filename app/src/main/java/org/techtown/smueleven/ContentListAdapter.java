@@ -14,9 +14,8 @@ public class ContentListAdapter extends BaseAdapter{
 
     private Context context;
     private List<Content> contentList;
-    private Activity parentActivity;//삭제 강의때 추가
+    private Activity parentActivity;
     private List<Content> saveList;
-    //여기서 Actvitivy parentActivity가 추가됨 삭제 및 관리자기능 예제
 
     public ContentListAdapter(Context context, List<Content> contentList, Activity parentActivity, List<Content> saveList){
         this.context=context;
